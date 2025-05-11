@@ -7,7 +7,10 @@ export function App() {
 
   return (
     <>
-      <Heading attr={123} attr2='String'>Olá Mundo1</Heading>
+      <Heading attr={123} attr2='String'>
+        Olá Mundo 1
+        <button>P</button>
+      </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
         voluptatum fugiat adipisci, ab blanditiis ut illo aut iste quis est
