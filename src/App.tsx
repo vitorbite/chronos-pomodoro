@@ -1,9 +1,10 @@
 //import { TimerIcon } from "lucide-react";
-import { Container } from "./components/container";
+import { Container } from './components/Container'
 import { Heading } from "./components/Heading";
 
 import "./styles/global.css";
 import "./styles/theme.css";
+
 
 export function App() {
   return (
@@ -13,13 +14,7 @@ export function App() {
       </Container>
       
       <Container>
-        <section>FOOTER</section>
-      </Container>
-      <Container>
-        <section>FOOTER</section>
-      </Container>
-      <Container>
-        <section>FOOTER</section>
+        <section><Heading>MENU</Heading></section>
       </Container>
     </>
   );
