@@ -4,9 +4,10 @@ import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
 import { CountDown } from "./components/CountDown";
 import { DefaultInput } from "./components/Input";
-import { Cycles } from "./components/Cycles"
+import { Cycles } from "./components/Cycles";
 import { DefaultButton } from "./components/Button";
 import { PlayCircleIcon } from "lucide-react";
+import { Footer } from "./components/Footer";
 
 import "./styles/global.css";
 import "./styles/theme.css";
@@ -29,24 +30,30 @@ export function App() {
       <Container>
         <form className="form" action="">
           <div className="formRow">
-            <DefaultInput id="meuInput" labelText="Task" type="text" title="Titulo"
-            placeholder="Digite algo"
+            <DefaultInput
+              id="meuInput"
+              labelText="Task"
+              type="text"
+              title="Titulo"
+              placeholder="Digite algo"
             />
           </div>
           <div className="formRow">
-            <p>
-              Lorem ipsum dolor sit amet.
-            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
 
           <div className="formRow">
-            <Cycles/>
+            <Cycles />
           </div>
 
           <div className="formRow">
-            <DefaultButton icon={ <PlayCircleIcon/> }/>
+            <DefaultButton icon={<PlayCircleIcon />} />
           </div>
         </form>
+      </Container>
+
+      <Container>
+        <Footer />
       </Container>
     </>
   );

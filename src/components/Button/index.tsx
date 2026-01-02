@@ -7,7 +7,7 @@ type DefaultButtonProps = {
 
 export function DefaultButton({
   icon,
-  color = "red",
+  color = "green",
   ...props
 }: DefaultButtonProps) {
   return (
